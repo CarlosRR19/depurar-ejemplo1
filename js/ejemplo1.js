@@ -12,8 +12,12 @@ var nombres=[];
 
 var NUMERO_NOMBRES=10;
 
+for(var i=0; i<NUMERO_NOMBRES;i++) {
+    var x=prompt("Introduce un nombre");
+    nombres[i] = x;
+}
 
-
+window.alert(nombres);
 
 /* AVISOS (WARNING) */
 console.warn("Mensaje warn");
